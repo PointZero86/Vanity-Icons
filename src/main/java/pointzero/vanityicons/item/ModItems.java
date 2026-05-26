@@ -16,6 +16,8 @@ public class ModItems {
     public static final Item VOLTAGE = registerItem("voltage", new Item(new Item.Settings()));
     public static final Item VOLTAGE_WARNING = registerItem("voltage_warning", new Item(new Item.Settings()));
     public static final Item RUNNING_MAN = registerItem("voltage_warning", new Item(new Item.Settings()));
+    public static final Item PRAYER_BEADS = registerItem("prayer_beads", new Item(new Item.Settings()));
+    public static final Item ANCIENT_BEADS = registerItem("ancient_beads", new Item(new Item.Settings()));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(VanityIcons.MOD_ID, name), item);
@@ -31,6 +33,8 @@ public class ModItems {
             fabricItemGroupEntries.add(VOLTAGE);
             fabricItemGroupEntries.add(VOLTAGE_WARNING);
             fabricItemGroupEntries.add(RUNNING_MAN);
+            fabricItemGroupEntries.add(PRAYER_BEADS);
+            fabricItemGroupEntries.add(ANCIENT_BEADS);
         });
     }
 }

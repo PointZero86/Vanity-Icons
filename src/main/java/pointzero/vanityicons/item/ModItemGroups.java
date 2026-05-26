@@ -23,6 +23,8 @@ public class ModItemGroups
                         entries.add(ModItems.VOLTAGE);
                         entries.add(ModItems.VOLTAGE_WARNING);
                         entries.add(ModItems.RUNNING_MAN);
+                        entries.add(ModItems.PRAYER_BEADS);
+                        entries.add(ModItems.ANCIENT_BEADS);
                     }).build());
 
     public static void registerItemGroups() {
