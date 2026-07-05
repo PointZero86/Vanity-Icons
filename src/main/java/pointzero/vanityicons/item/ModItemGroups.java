@@ -25,6 +25,7 @@ public class ModItemGroups
                         entries.add(ModItems.RUNNING_MAN);
                         entries.add(ModItems.PRAYER_BEADS);
                         entries.add(ModItems.ANCIENT_BEADS);
+                        entries.add(ModItems.CLOUDY_SUN);
                     }).build());
 
     public static void registerItemGroups() {
